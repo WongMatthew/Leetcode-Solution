@@ -11,7 +11,6 @@ class Solution(object):
 
         strs.sort()
         prefix = strs[0]
-        print(prefix)
 
         # iterate through 1st string
         for i, c in enumerate(prefix):
