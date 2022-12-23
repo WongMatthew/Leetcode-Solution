@@ -1,3 +1,5 @@
+# beat 85% runtime and 88% memory
+
 class Solution(object):
     def isPalindrome(self, x):
         """
