@@ -1,4 +1,4 @@
-# beats 98% runtime and 68% memory
+# beats 98% runtime and 69% memory
 
 class Solution(object):
     def generateParenthesis(self, n):
