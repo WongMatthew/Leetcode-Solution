@@ -1,4 +1,4 @@
-# beats 
+# beats 20% runtime and 80% memory
 
 class Solution(object):
     def removeDuplicates(self, nums):
