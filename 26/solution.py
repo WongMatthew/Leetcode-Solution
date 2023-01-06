@@ -6,6 +6,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        if len(nums)==1:
+            return 1
         x=nums[0]
         i=0
         while i<len(nums)-1:
