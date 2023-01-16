@@ -13,6 +13,7 @@ class Solution:
             if hash_map.get(diff) == None:
                 # If not, add the current element and its index to the hash map
                 hash_map[nums[index]] = index
+                
             else:
                 # If it is, return the indices of the current element and the element in the hash map
                 # that add up to the target
