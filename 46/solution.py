@@ -1,4 +1,4 @@
-# beats
+# beats 67% runtime and 97% memory
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
