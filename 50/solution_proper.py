@@ -7,8 +7,8 @@ class Solution:
         # base case
         if not n:
             return 1
+            
         # recursive case
-
         # if n is negative, return 1 divided by the power of x with positive n
         if n < 0:
             return 1 / self.myPow(x, -n)
