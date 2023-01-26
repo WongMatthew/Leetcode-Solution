@@ -6,6 +6,8 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+        if len(strs) == 1:
+            return strs[0]
         if not strs:
             return ""
 
