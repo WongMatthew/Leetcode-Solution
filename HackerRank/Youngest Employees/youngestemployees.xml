@@ -1,0 +1,17 @@
+/*
+    * HackerRank Youngest Employees
+    * There are two tables, Employee and Employee_UIN. Write a query to print the following two lines of output:
+    * 1. All employees under 25 years old, first in order of Name ascending, then in order of ID ascending.
+    * 2. The result should include the UIN followed by the Name
+*/
+
+select employee_uin.uin, employee.name
+from employee
+inner join employee_uin
+on employee.id = employee_uin.id
+where employee.age < 25
+order by employee.name asc, employee.id asc;
+limit 1;
+
+/* Path: HackerRank\Youngest Employees\youngestemployees.sql */
+/* maybe passes? */
